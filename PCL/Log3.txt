@@ -1,0 +1,131 @@
+18:46:42.897 I [Application] 程序版本：正式版 2.99.0.1 (415)
+18:46:42.914 I [Application] 识别码：C09A-BA94-963D-3FAB
+18:46:42.914 I [Application] 程序路径：D:\projects\PDT\Plain Craft Launcher 2.exe
+18:46:42.914 I [Application] 系统编码：gb2312 (936, GBK=True)
+18:46:42.915 I [Application] 管理员权限：False
+18:46:42.928 I [Application] 第一阶段加载用时：737 ms
+18:46:43.338 I [FormMain] 全新的 PCL，使用新的版本隔离默认值
+18:46:43.355 I <4 · Logger> [Logger] PclLogger 日志初始化结束
+18:46:43.383 I [ModSecret] 刷新主题：0
+18:46:43.548 I [ModLoader] 加载器 LoaderTask`2 Minecraft Folder List 状态改变：Loading
+18:46:43.555 I [FormMain] 第二阶段加载用时：595 ms
+18:46:43.575 I <5 · L/Minecraft Folder List> [ModLoader] 加载器 LoaderTask`2 Minecraft Folder List 状态改变：Finished
+18:46:43.962 I [FormMain] 从设置更新背景图片与标题栏样式
+18:46:44.125 I [FormMain] 窗口已置顶，位置：(233, 85), 900 x 550
+18:46:44.139 I <7 · Animation> [ModAnimation] 动画线程开始
+18:46:44.189 I [FormMain] 第三阶段加载用时：240 ms
+18:46:44.241 I <11 · Version Check> [ModMinecraft] 当前选择的 Minecraft 文件夹：C:\Users\*********\AppData\Roaming\.minecraft\
+18:46:44.372 I [ModLoader] 加载器 LoaderTask`2 Loader Skin Legacy 状态改变：Loading
+18:46:44.391 I <12 · L/Loader Skin Legacy> [ModLoader] 加载器 LoaderTask`2 Loader Skin Legacy 状态改变：Finished
+18:46:44.525 I [ModAnimation] 两个动画帧间隔 316 ms
+18:46:44.581 I [PageLaunchRight] 实例化：清空主页 UI，来源为空
+18:46:44.583 I [ModAnimation] 两个动画帧间隔 126 ms
+18:46:45.196 I [MySkin] 载入头像成功：Loader Skin Legacy
+18:46:45.210 I [ModMinecraft] 当前选择的 Minecraft 版本：C:\Users\*********\AppData\Roaming\.minecraft\versions\fabric-loader-0.20.1-1.21.11\
+18:46:45.223 I [PageLaunchLeft] 启动按钮：Minecraft 版本：C:\Users\*********\AppData\Roaming\.minecraft\versions\fabric-loader-0.20.1-1.21.11\
+18:46:45.232 I [ModAnimation] 两个动画帧间隔 609 ms
+18:46:45.242 I [FormMain] DPI：96，系统版本：Microsoft Windows NT 10.0.26100.0，PCL 位置：D:\projects\PDT\Plain Craft Launcher 2.exe
+18:46:45.959 I <9 · 初始化> [ModJava] 共有 2 个可用的 Java：
+18:46:45.959 I <9 · 初始化> [ModJava] - Java 21 (21.0.12.1)：C:\Program Files\Java\jdk-21.0.12.1\bin\
+18:46:45.959 I <9 · 初始化> [ModJava] - Java 27 (27.0.1.0)：C:\Program Files\Java\jdk-27.0.1.0.3\bin\
+18:46:46.084 I <9 · 初始化> [ModLoader] 加载器 LoaderTask`2 DlClientList Mojang 状态改变：Loading
+18:46:46.101 I <10 · L/DlClientList Mojang> [ModNet] 发起网络请求（GET，https://launchermeta.mojang.com/mc/game/version_manifest.json），最大超时 10000
+18:46:46.128 I <9 · 初始化> [ModLoader] 加载器 LoaderTask`2 PCL 配置更新 状态改变：Loading
+18:46:46.136 I <14 · TryClearTaskTemp> [ModMain] 开始清理任务缓存文件夹
+18:46:46.146 I <14 · TryClearTaskTemp> [ModMain] 已清理任务缓存文件夹
+18:46:46.201 I <13 · L/PCL 配置更新> [ModSecret] 已读取本地缓存的配置：38
+18:46:46.201 I <13 · L/PCL 配置更新> [ModNet] 发起网络请求（GET，https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg{CDN}），最大超时 10000
+18:46:46.279 I <15 · Telemetry> [ModMain] 匿名数据上报：启动
+18:46:46.739 I <13 · L/PCL 配置更新> [ModSecret] 本地公告编号：230，服务器公告：230|416|415|6|38，无需更新
+18:46:46.753 I <13 · L/PCL 配置更新> [ModLoader] 加载器 LoaderTask`2 PCL 配置更新 状态改变：Finished
+18:46:56.452 W <10 · L/DlClientList Mojang> [ModNet] 网络请求失败（GET，https://launchermeta.mojang.com/mc/game/version_manifest.json）：你的网络环境不佳，请稍后再试，或使用 VPN 改善网络环境。
+18:46:56.452 W <10 · L/DlClientList Mojang> [ModNet] ——————— 详细错误信息 ———————
+18:46:56.452 W <10 · L/DlClientList Mojang> [ModNet] 网络请求失败，请稍后再试，或使用 VPN 改善网络环境（GET, https://launchermeta.mojang.com/mc/game/version_manifest.json） (Status=Timeout)
+18:46:56.452 W <10 · L/DlClientList Mojang> [ModNet]    在 PCL.ModNet.SendRequest
+18:46:56.452 W <10 · L/DlClientList Mojang> [ModNet]    在 PCL.ModNet.NetRequestByClient
+18:46:56.452 W <10 · L/DlClientList Mojang> [ModNet]    错误类型：System.Net.WebException
+18:46:56.960 I <10 · L/DlClientList Mojang> [ModNet] 发起网络请求（GET，https://launchermeta.mojang.com/mc/game/version_manifest.json），最大超时 30000
+18:46:59.290 I <11 · ForgeRecommendedRefresh> [ModDownloadLib] 刷新 Forge 推荐版本缓存开始
+18:46:59.291 I <11 · ForgeRecommendedRefresh> [ModNet] 发起网络请求（GET，https://bmclapi2.bangbang93.com/forge/promos），最大超时 10000
+18:46:59.296 I [ModLoader] 加载器 LoaderTask`2 关闭下载 状态改变：Loading
+18:46:59.318 I <22 · L/关闭下载> [ModLoader] 加载器 LoaderTask`2 DlClientList Main 状态改变：Loading
+18:46:59.339 I [FormMain] 切换主要页面：Download, OtherHelp
+18:46:59.354 I [ModAnimation] 两个动画帧间隔 490 ms
+18:46:59.401 I [ModLoader] 加载器 LoaderTask`2 DlOptiFineList Main 状态改变：Loading
+18:46:59.434 I [ModLoader] 加载器 LoaderTask`2 DlLiteLoaderList Main 状态改变：Loading
+18:46:59.445 I <26 · L/DlOptiFineList Main> [ModLoader] 加载器 LoaderTask`2 DlOptiFineList Official 状态改变：Loading
+18:46:59.446 I <10 · L/DlClientList Mojang> [ModNet] 操作已取消（网络请求失败（GET，https://launchermeta.mojang.com/mc/game/version_manifest.json））
+18:46:59.447 I <10 · L/DlClientList Mojang> [ModLoader] 操作已取消（加载线程 DlClientList Mojang 已取消，当前已完成 0%）
+18:46:59.449 I <11 · ForgeRecommendedRefresh> [ModDownloadLib] 刷新 Forge 推荐版本缓存成功
+18:46:59.449 I <27 · L/DlClientList Mojang> [ModNet] 发起网络请求（GET，https://launchermeta.mojang.com/mc/game/version_manifest.json），最大超时 10000
+18:46:59.455 I [ModLoader] 加载器 LoaderTask`2 DlFabricList Main 状态改变：Loading
+18:46:59.466 I <28 · L/DlLiteLoaderList Main> [ModLoader] 加载器 LoaderTask`2 DlLiteLoaderList Official 状态改变：Loading
+18:46:59.475 I <30 · L/DlOptiFineList Official> [ModNet] 发起网络请求（GET，https://optifine.net/downloads），最大超时 10000
+18:46:59.483 I [ModLoader] 加载器 LoaderTask`2 DlNeoForgeList Main 状态改变：Loading
+18:46:59.491 I <31 · L/DlFabricList Main> [ModLoader] 加载器 LoaderTask`2 DlFabricList Official 状态改变：Loading
+18:46:59.494 I <32 · L/DlLiteLoaderList Official> [ModNet] 发起网络请求（GET，https://dl.liteloader.com/versions/versions.json），最大超时 10000
+18:46:59.507 I <33 · L/DlNeoForgeList Main> [ModLoader] 加载器 LoaderTask`2 DlNeoForgeList Official 状态改变：Loading
+18:46:59.510 I <34 · L/DlFabricList Official> [ModNet] 发起网络请求（GET，https://meta.fabricmc.net/v2/versions），最大超时 10000
+18:46:59.512 I <36 · L/DlNeoForgeList Official> [ModNet] 发起网络请求（GET，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge），最大超时 10000
+18:47:01.010 I <30 · L/DlOptiFineList Official> [ModLoader] 加载器 LoaderTask`2 DlOptiFineList Official 状态改变：Finished
+18:47:01.014 I <26 · L/DlOptiFineList Main> [ModLoader] 加载器 LoaderTask`2 DlOptiFineList Main 状态改变：Finished
+18:47:02.164 I [MyMsgText] 普通弹窗：加载成功
+18:47:02.164 I [MyMsgText] 已通过 DLL 注入恢复被移除的 MC 下载功能。
+18:47:02.164 I [MyMsgText] · 下载页入口与版本列表已恢复
+18:47:02.164 I [MyMsgText] · 模组 / 资源包 / 整合包下载已恢复
+18:47:02.164 I [MyMsgText] PCLRestore
+18:47:04.693 I [FormMain] 切换主要页面：Other, OtherAbout
+18:47:04.706 I [ModAnimation] 两个动画帧间隔 268 ms
+18:47:05.606 I <34 · L/DlFabricList Official> [ModLoader] 加载器 LoaderTask`2 DlFabricList Official 状态改变：Finished
+18:47:05.618 I <31 · L/DlFabricList Main> [ModLoader] 加载器 LoaderTask`2 DlFabricList Main 状态改变：Finished
+18:47:08.693 I <24 · L/DlClientList Main> [ModLoader] 加载器 LoaderTask`2 DlClientList Bmclapi 状态改变：Loading
+18:47:08.697 I <25 · L/DlClientList Bmclapi> [ModNet] 发起网络请求（GET，https://bmclapi2.bangbang93.com/mc/game/version_manifest.json），最大超时 10000
+18:47:08.720 I <28 · L/DlLiteLoaderList Main> [ModLoader] 加载器 LoaderTask`2 DlLiteLoaderList Bmclapi 状态改变：Loading
+18:47:08.720 I <25 · L/DlClientList Bmclapi> [ModLoader] 加载器 LoaderTask`2 DlClientList Bmclapi 状态改变：Finished
+18:47:08.724 I <24 · L/DlClientList Main> [ModLoader] 加载器 LoaderTask`2 DlClientList Mojang 状态改变：Canceled
+18:47:08.729 I <23 · L/DlLiteLoaderList Bmclapi> [ModNet] 发起网络请求（GET，https://bmclapi2.bangbang93.com/maven/com/mumfrey/liteloader/versions.json），最大超时 10000
+18:47:08.736 I <27 · L/DlClientList Mojang> [ModNet] 操作已取消（网络请求失败（GET，https://launchermeta.mojang.com/mc/game/version_manifest.json））
+18:47:08.737 I <27 · L/DlClientList Mojang> [ModLoader] 操作已取消（加载线程 DlClientList Mojang 已取消，当前已完成 100%）
+18:47:08.740 I <33 · L/DlNeoForgeList Main> [ModLoader] 加载器 LoaderTask`2 DlNeoForgeList Bmclapi 状态改变：Loading
+18:47:08.741 I <24 · L/DlClientList Main> [ModLoader] 加载器 LoaderTask`2 DlClientList Main 状态改变：Finished
+18:47:08.742 I <11 · L/DlNeoForgeList Bmclapi> [ModNet] 发起网络请求（GET，https://bmclapi2.bangbang93.com/neoforge/meta/api/maven/details/releases/net/neoforged/neoforge），最大超时 10000
+18:47:08.942 I <11 · L/DlNeoForgeList Bmclapi> [ModNet] 发起网络请求（GET，https://bmclapi2.bangbang93.com/neoforge/meta/api/maven/details/releases/net/neoforged/forge），最大超时 10000
+18:47:09.050 I <11 · L/DlNeoForgeList Bmclapi> [ModLoader] 加载器 LoaderTask`2 DlNeoForgeList Bmclapi 状态改变：Finished
+18:47:09.052 I <33 · L/DlNeoForgeList Main> [ModLoader] 加载器 LoaderTask`2 DlNeoForgeList Official 状态改变：Canceled
+18:47:09.054 I <33 · L/DlNeoForgeList Main> [ModLoader] 加载器 LoaderTask`2 DlNeoForgeList Main 状态改变：Finished
+18:47:09.055 I <36 · L/DlNeoForgeList Official> [ModNet] 操作已取消（网络请求失败（GET，https://maven.neoforged.net/api/maven/versions/releases/net/neoforged/neoforge））
+18:47:09.055 I <36 · L/DlNeoForgeList Official> [ModLoader] 操作已取消（加载线程 DlNeoForgeList Official 已取消，当前已完成 100%）
+18:47:09.191 I <22 · L/关闭下载> [ModLoader] 加载器 LoaderTask`2 关闭下载 状态改变：Finished
+18:47:09.611 I <23 · L/DlLiteLoaderList Bmclapi> [ModLoader] 加载器 LoaderTask`2 DlLiteLoaderList Bmclapi 状态改变：Finished
+18:47:09.617 I <28 · L/DlLiteLoaderList Main> [ModLoader] 加载器 LoaderTask`2 DlLiteLoaderList Official 状态改变：Canceled
+18:47:09.618 I <28 · L/DlLiteLoaderList Main> [ModLoader] 加载器 LoaderTask`2 DlLiteLoaderList Main 状态改变：Finished
+18:47:09.637 I <32 · L/DlLiteLoaderList Official> [ModNet] 操作已取消（网络请求失败（GET，https://dl.liteloader.com/versions/versions.json））
+18:47:09.637 I <32 · L/DlLiteLoaderList Official> [ModLoader] 操作已取消（加载线程 DlLiteLoaderList Official 已取消，当前已完成 100%）
+18:47:11.611 I [MyButton] 按下按钮：确定
+18:47:22.135 I [MyRadioButton] 按下单选按钮：下载
+18:47:22.141 I [FormMain] 切换主要页面：Download, -1
+18:47:25.150 I [MyListItem] 按下单选列表项：Mod
+18:47:25.371 I [ModLoader] 加载器 LoaderTask`2 社区资源获取：Mod 状态改变：Loading
+18:47:25.484 I <15 · L/社区资源获取：Mod> [ResourceSearcher] 工程列表搜索原始文本：
+18:47:25.508 I <10 · CurseForge Search> [ResourceSearcher] 开始 CurseForge 搜索：https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6
+18:47:25.515 I <14 · Modrinth Search> [ResourceSearcher] 开始 Modrinth 搜索：https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]
+18:47:25.522 I <10 · CurseForge Search> [ModNet] 发起网络请求（GET，https://api.curseforge.com/v1/mods/search?gameId=432&sortField=2&sortOrder=desc&pageSize=40&classId=6），最大超时 10000
+18:47:25.523 I <14 · Modrinth Search> [ModNet] 发起网络请求（GET，https://api.modrinth.com/v2/search?limit=40&index=relevance&facets=[["project_type:mod"]]），最大超时 20000
+18:47:25.672 I [MyListItem] 按下单选列表项：原版游戏
+18:47:27.541 I <14 · Modrinth Search> [ResourceSearcher] 从 Modrinth 搜索到了 40 个工程（总计已获取 40 个，共 79382 个）
+18:47:29.102 I <10 · CurseForge Search> [ResourceSearcher] 从 CurseForge 搜索到了 40 个工程（总计已获取 40 个，共 10000 个）
+18:47:29.326 I [MyRadioButton] 按下单选按钮：更多
+18:47:29.327 I [FormMain] 切换主要页面：Other, -1
+18:47:29.536 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Balm (balm) 与 Balm (balm) 认定为相似工程
+18:47:29.543 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Mouse Tweaks (mouse-tweaks) 与 Mouse Tweaks (mouse-tweaks) 认定为相似工程
+18:47:29.543 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Konkrete (konkrete) 与 Konkrete (konkrete) 认定为相似工程
+18:47:29.545 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Puzzles Lib (puzzles-lib) 与 Puzzles Lib (puzzles-lib) 认定为相似工程
+18:47:29.545 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 FancyMenu (fancymenu) 与 FancyMenu (fancymenu) 认定为相似工程
+18:47:29.546 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Collective (collective) 与 Collective (collective) 认定为相似工程
+18:47:29.556 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Jade 🔍 (jade) 与 Jade 🔍 (jade) 认定为相似工程
+18:47:29.572 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Xaero's World Map (xaeros-world-map) 与 Xaero's World Map (xaeros-world-map) 认定为相似工程
+18:47:29.574 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Xaero's Minimap (xaeros-minimap) 与 Xaero's Minimap (xaeros-minimap) 认定为相似工程
+18:47:29.578 I <15 · L/社区资源获取：Mod> [ResourceProject] 将 Fabric API (fabric-api) 与 Fabric API (fabric-api) 认定为相似工程
+18:47:29.583 I <15 · L/社区资源获取：Mod> [ResourceSearcher] 去重、筛选后累计新增结果 70 个（目前已有结果 0 个）
+18:47:29.679 I [PageResource] 开始可视化 Mod 列表，已储藏 70 个结果，当前在第 1 页
+18:47:29.740 I <15 · L/社区资源获取：Mod> [ModLoader] 加载器 LoaderTask`2 社区资源获取：Mod 状态改变：Finished
